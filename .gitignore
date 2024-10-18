@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+**/lightning_logs/
+**/logs/
+
+experiments/data/*
+
+experiments/cebab/results/cebab_base/
+experiments/cebab/results/celeba_base/
+experiments/cebab/results/checkpoint-500/
+experiments/cebab/results/checkpoint-1000/
+experiments/cebab/results/kebab_base/
+experiments/cebab/embeddings/*
+
+experiments/celeba/results/celeba_base/*
+
+experiments/colormnist/data/*
+experiments/colormnist/results/*
+
+experiments/cub/embeddings/*
+experiments/cub/results/celeba_base/*
+experiments/cub/results/cub_base/*
+
+experiments/mnist/results/comps_mnist_missing_digit_concepts/*
+experiments/mnist/results/mnist_adding_rules/*
+experiments/mnist/results/mnist_base/CMR/
+experiments/mnist/results/mnist_base/comps/
+
+# C extensions
+*.so
+
+# scikit-learn specific
+doc/_build/
+doc/auto_examples/
+doc/modules/generated/
+doc/datasets/generated/
